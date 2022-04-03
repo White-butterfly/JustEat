@@ -25,7 +25,7 @@ const Intro = () => {
             setPlayVideo(!playVideo);
             if (playVideo) {
               vidRef.current.pause();
-            } else {
+            } else { 
               vidRef.current.play();
             }
           }}
